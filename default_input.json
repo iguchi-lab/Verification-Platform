@@ -1,5 +1,5 @@
 {
-    "case_name": "test",
+    "case_name": "default",
     "climateFile": "-",
     "outdoorFile": "-",
     "loadFile": "-",
@@ -34,9 +34,8 @@
         "duct_insulation": 1,
         "VAV": 1,
         "general_ventilation": 1,
-        "input_V_hs_dsgn_H": 500.0,
-        "input_f_SFP_H": 1,
-        "f_SFP_H": 0.144,
+        "input_V_hs_dsgn_H": 1,
+        "V_hs_dsgn_H": 500,
         "input": 1,
         "q_hs_rtd_H": 0.0,
         "P_hs_rtd_H": 0.0,
@@ -54,7 +53,9 @@
         "input_C_af_H": 1,
         "dedicated_chamber": 1,
         "fixed_fin_direction": 1,
-        "C_af_H": 0.0
+        "C_af_H": 0,
+        "input_f_SFP_H": 1,
+        "f_SFP_H": 0.03
     },
     "C_A": {
         "type": 1,
@@ -62,9 +63,7 @@
         "VAV": 1,
         "general_ventilation": 1,
         "input_V_hs_dsgn_C": 1,
-        "V_hs_dsgn_C": 500.0,
-        "input_f_SFP_C": 1,
-        "f_SFP_C": 0.144,
+        "V_hs_dsgn_C": 500,
         "input": 1,
         "q_hs_rtd_C": 0.0,
         "P_hs_rtd_C": 0.0,
@@ -75,7 +74,7 @@
         "V_fan_mid_C": 0.0,
         "P_fan_mid_C": 0.0,
         "input_mode": 1,
-        "mode": "\u306f",
+        "mode": 3,
         "input_rac_performance": 1,
         "q_rac_rtd_C": 0.0,
         "q_rac_max_C": 0.0,
@@ -84,10 +83,12 @@
         "input_C_af_C": 1,
         "dedicated_chamber": 1,
         "fixed_fin_direction": 1,
-        "C_af_C": 0.0
+        "C_af_C": 0.0,
+        "input_f_SFP_C": 1,
+        "f_SFP_C": 0.03
     },
     "HEX": {
-        "install": 2,
+        "install": 1,
         "etr_t": 0.4
     }
 }
